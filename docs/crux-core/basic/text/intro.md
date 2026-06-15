@@ -23,6 +23,6 @@ Crux's string handler processes custom placeholders within a given text.
 
 For example, if you have the text: `<player_name>` and input it in the string handler with the proper context, it may return something like: `killercreepr` or some other player's name.
 
-There are global placeholders can be used despite not having any explicit context. See [Global Placeholders](/docs/crux-core/basic/text/tags/global/).
+There are global placeholders can be used despite not having any explicit context. See [Global Placeholders](/crux-core/basic/text/tags/global/).
 
-It also can process equations. See [Text Equations](/docs/text/equations).
+It also can process equations. See [Text Equations](/text/equations).

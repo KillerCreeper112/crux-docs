@@ -19,9 +19,9 @@ The second item has a tag prefix of `second_item_`.
 
 :::info
 
-See [Text Tags](/docs/text-tags) for more information regarding tag prefixes and placeholders.
+See [Text Tags](/text-tags) for more information regarding tag prefixes and placeholders.
 
-See [Item Stack Tags](/docs/text-tags/item-stack) for information regarding the tags that Item Stacks provide.
+See [Item Stack Tags](/text-tags/item-stack) for information regarding the tags that Item Stacks provide.
 
 :::
 
@@ -38,13 +38,13 @@ repair_amount: <number provider>
 
 ## ingredient
 
-[Item Predicate](/docs/predicate-item)
+[Item Predicate](/predicate-item)
 
 What item(s) should be considered a valid ingredient.
 
 ## repair_amount
 
-[Number Provider](/docs/number-provider)
+[Number Provider](/number-provider)
 
 How much durability the ingredient should mend.
 

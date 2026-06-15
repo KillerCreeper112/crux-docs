@@ -75,7 +75,7 @@ Returns 'true' if the item is a diamond, stone, or deepslate.
 
 ## Material Tag
 
-Returns 'true' if the item matches any of the materials provided in an [ItemTag](/docs/tag-item).
+Returns 'true' if the item matches any of the materials provided in an [ItemTag](/tag-item).
 
 ### Layout
 

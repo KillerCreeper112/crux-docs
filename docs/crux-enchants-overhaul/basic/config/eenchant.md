@@ -34,7 +34,7 @@ An EEnchant defines a wrapped Minecraft enchantment that may have additional req
 
 ## enchant
 
-[Key](/docs/namespace-key)
+[Key](/namespace-key)
 
 Points to a Minecraft enchantment.
 
@@ -46,13 +46,13 @@ The enchant's description.
 
 ## icon
 
-[Dynamic Item](/docs/dynamic-item)
+[Dynamic Item](/dynamic-item)
 
 The item icon to be used in menus.
 
 ## ingredients
 
-[EEIngredient Calculator](/docs/crux-enchants-overhaul/ingredient-calculator)
+[EEIngredient Calculator](/crux-enchants-overhaul/ingredient-calculator)
 
 The item ingredients required to apply the enchantment via the custom enchanting table menu.
 
@@ -70,7 +70,7 @@ If false, the enchantment will not show up in the enchanting table.
 
 ## required_power
 
-[Number Provider](/docs/number-provider)
+[Number Provider](/number-provider)
 
 How much power the enchanting table must have to apply the enchantment.
 
@@ -82,7 +82,7 @@ Power is not consumed when an enchantment is applied
 
 ## required_level
 
-[Number Provider](/docs/number-provider)
+[Number Provider](/number-provider)
 
 How many experience levels the player must have to apply the enchantment.
 
@@ -94,7 +94,7 @@ Experience levels are not consumed when an enchantment is applied
 
 ## required_exp
 
-[Number Provider](/docs/number-provider)
+[Number Provider](/number-provider)
 
 How many experience points the player must have to apply the enchantment.
 
@@ -106,7 +106,7 @@ Experience points **are consumed** when an enchantment is applied
 
 ## required_lapis
 
-[Number Provider](/docs/number-provider)
+[Number Provider](/number-provider)
 
 How much lapis lazuli is required to apply the enchantment.
 
@@ -120,7 +120,7 @@ Lapis **is consumed** when an enchantment is applied
 
 String
 
-When setting this value, it assumes that there is a `default_required_power` setup, and it is a [Number Provider Equation](/docs/number-provider#equation)
+When setting this value, it assumes that there is a `default_required_power` setup, and it is a [Number Provider Equation](/number-provider#equation)
 
 This will add as a prefix to the `default_required_power` equation.
 
@@ -130,7 +130,7 @@ For example, if `default_required_power` = `"5"` and `required_power_addon` = `"
 
 String
 
-When setting this value, it assumes that there is a `default_required_level` setup, and it is a [Number Provider Equation](/docs/number-provider#equation)
+When setting this value, it assumes that there is a `default_required_level` setup, and it is a [Number Provider Equation](/number-provider#equation)
 
 This will add as a prefix to the `default_required_level` equation.
 
@@ -138,7 +138,7 @@ This will add as a prefix to the `default_required_level` equation.
 
 String
 
-When setting this value, it assumes that there is a `default_required_exp` setup, and it is a [Number Provider Equation](/docs/number-provider#equation)
+When setting this value, it assumes that there is a `default_required_exp` setup, and it is a [Number Provider Equation](/number-provider#equation)
 
 This will add as a prefix to the `default_required_exp` equation.
 
@@ -146,7 +146,7 @@ This will add as a prefix to the `default_required_exp` equation.
 
 String
 
-When setting this value, it assumes that there is a `default_required_power` setup, and it is a [Number Provider Equation](/docs/number-provider#equation)
+When setting this value, it assumes that there is a `default_required_power` setup, and it is a [Number Provider Equation](/number-provider#equation)
 
 This will add as a prefix to the `default_required_power` equation.
 

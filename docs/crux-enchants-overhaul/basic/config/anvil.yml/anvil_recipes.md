@@ -20,7 +20,7 @@ Each anvil recipe has these parameters:
 
 ## key
 
-[Key](/docs/namespace-key)
+[Key](/namespace-key)
 
 The recipe's identifier.
 
@@ -34,25 +34,25 @@ If no namespace is explicitly provided, `crux` will be used.
 
 ## first_ingredient
 
-[Item Predicate](/docs/predicate-item).
+[Item Predicate](/predicate-item).
 
 Determines which item(s) shall be placed in the first slot of the anvil.
 
 ## second_ingredient
 
-Collection of [Anvil Ingredient](/docs/crux-enchants-overhaul/anvil-ingredient)s.
+Collection of [Anvil Ingredient](/crux-enchants-overhaul/anvil-ingredient)s.
 
 Each ingredient may provide different repairing equations.
 
 ## experience_cost
 
-[Number Provider](/docs/number-provider).
+[Number Provider](/number-provider).
 
 Determines the experience level cost to complete the recipe.
 
 ## item_amount_cost
 
-[Number Provider](/docs/number-provider).
+[Number Provider](/number-provider).
 
 Optionally, you can define a fixed value or equation that determines how many items from the second ingredient are consumed when the recipe is completed.
 
@@ -97,7 +97,7 @@ Each diamond block repairs 405% of the item's maximum durability. Since this exc
 
 :::info
 
-If you create a custom crux [Item Tag](/docs/tag-item), the `first_ingredient` could potentially be condensed down into:
+If you create a custom crux [Item Tag](/tag-item), the `first_ingredient` could potentially be condensed down into:
 
 ```yaml
 first_ingredient:

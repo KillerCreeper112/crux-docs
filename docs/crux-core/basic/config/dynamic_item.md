@@ -37,13 +37,13 @@ Sets the item's type.
 
 ## amount
 
-[Number Provider](/docs/number-provider)
+[Number Provider](/number-provider)
 
 The item's count.
 
 ## max_stack_size
 
-[Number Provider](/docs/number-provider)
+[Number Provider](/number-provider)
 
 The item's max count/amount.
 

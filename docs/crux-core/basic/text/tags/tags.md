@@ -7,7 +7,7 @@ slug: "/text-tags"
 
 Crux has its own robust placeholder/tags system.
 
-This system mainly revolves around building tags for supported objects, like an Entity or [Item Stack](/docs/text-tags/item-stack).
+This system mainly revolves around building tags for supported objects, like an Entity or [Item Stack](/text-tags/item-stack).
 
 # Prefixes
 

@@ -24,7 +24,7 @@ This config file was made as a JSON by default since the relative complexity of 
 
 ## values
 
-Collection of [EEnchant](/docs/crux-enchants-overhaul/eenchant)s
+Collection of [EEnchant](/crux-enchants-overhaul/eenchant)s
 
 # Examples
 
