@@ -41,6 +41,23 @@ const config = {
     locales: ['en'],
   },
 
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: './sidebars.js',
+          routeBasePath: '/',
+        },
+        blog: false,
+        theme: {
+          customCss: './src/css/custom.css',
+        },
+      }),
+    ],
+  ],
+
   // Local search (community plugin)
   themes: [
     [
