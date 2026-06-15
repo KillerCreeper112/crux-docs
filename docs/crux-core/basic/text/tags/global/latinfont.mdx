@@ -1,0 +1,34 @@
+---
+title: "Latin Font"
+slug: "/text-tags-global/latinfont"
+---
+
+import ArgumentsTable from '@site/src/components/ArgumentsTable';
+
+# Latin Font
+
+Converts a standard string into **ʟᴀᴛɪɴ ꜰᴏɴᴛ ᴛᴇxᴛ**.
+
+:::info
+
+Only supports English alphabetical letters
+
+It is **not** case sensitive
+
+:::
+
+<ArgumentsTable
+args={[
+{ name: 'text', type: 'string', description: 'Text to convert' }
+]}
+/>
+
+## Examples
+
+```text title="Input"
+<latinfont:This is an example text>
+```
+
+```text title="Result"
+ᴛʜɪꜱ ɪꜱ ᴀɴ ᴇxᴀᴍᴘʟᴇ ᴛᴇxᴛ
+```

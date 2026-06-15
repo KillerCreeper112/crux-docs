@@ -1,0 +1,33 @@
+---
+title: "Crux Space"
+slug: "/text-tags-global/crux-space"
+---
+
+import ArgumentsTable from '@site/src/components/ArgumentsTable';
+
+# Crux Space
+
+Converts a number into a usable [MiniMessage](https://docs.papermc.io/adventure/minimessage/format/#font) font tag.
+
+The font it uses is from the Crux resource pack, which will automatically come with any Crux plugin that you purchase.
+
+It uses the "space" font type to move text from left or right.
+
+- A negative value will move text to the left.
++ A positive value will move text to the right.
+
+<ArgumentsTable
+args={[
+{ name: 'value', type: 'whole number', description: 'Spacing amount' }
+]}
+/>
+
+## Examples
+
+```text title="Input"
+<crux_space:-8>
+```
+
+```text title="Result"
+<font:"crux:spacing">\uf808</font>
+```
